@@ -91,4 +91,4 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-Built for the Digital Heroes Full Stack Developer Trial.
+
