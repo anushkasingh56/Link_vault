@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dashboard — LinkVault</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a href="/dashboard.html" class="brand" style="text-decoration:none;"><span class="brand-mark"></span> LinkVault</a>
+      <div class="user-chip">
+        <span class="mono" id="userName" style="font-size:13px; color: var(--text-mid);"></span>
+        <div class="avatar" id="avatar">?</div>
+        <button class="btn btn-ghost btn-sm" id="logoutBtn">Log out</button>
+      </div>
+    </header>
+
+    <div class="app-header">
+      <div>
+        <h1>Your links</h1>
+        <div class="sub" id="headerSub">Loading…</div>
+      </div>
+      <button class="btn btn-primary" id="newLinkBtn">+ New link</button>
+    </div>
+
+    <div class="stat-row">
+      <div class="stat panel">
+        <div class="label">Total links</div>
+        <div class="value" id="statLinks">–</div>
+      </div>
+      <div class="stat panel">
+        <div class="label">Total clicks</div>
+        <div class="value" id="statClicks">–</div>
+      </div>
+      <div class="stat panel">
+        <div class="label">Clicks, last 14 days</div>
+        <div class="value" id="statRecent">–</div>
+      </div>
+    </div>
+
+    <div class="toolbar">
+      <input type="text" class="search-input" id="searchInput" placeholder="Search by title, slug, or URL…" />
+    </div>
+
+    <div class="panel" id="linkListPanel">
+      <div id="linkList"></div>
+    </div>
+  </div>
+
+  <!-- Create / edit modal -->
+  <div class="modal-backdrop" id="linkModalBackdrop">
+    <div class="modal">
+      <h2 id="modalTitle">New link</h2>
+      <form id="linkForm" novalidate>
+        <input type="hidden" id="editingId" />
+        <div class="field">
+          <label for="urlInput">Destination URL</label>
+          <input id="urlInput" type="url" required placeholder="https://example.com/very/long/path" />
+        </div>
+        <div class="field">
+          <label for="titleInput">Title (optional)</label>
+          <input id="titleInput" type="text" placeholder="What is this link for?" />
+        </div>
+        <div class="field" id="slugField">
+          <label for="slugInput">Custom slug (optional)</label>
+          <input id="slugInput" type="text" placeholder="e.g. my-launch" />
+          <span class="field-hint">Leave blank to auto-generate. Letters, numbers, - and _ only.</span>
+        </div>
+        <div id="formError" class="field-error" style="margin-bottom:12px;"></div>
+        <div class="modal-actions">
+          <button type="button" class="btn btn-ghost" id="cancelModalBtn">Cancel</button>
+          <button type="submit" class="btn btn-primary" id="saveLinkBtn">Save link</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="/js/shared.js"></script>
+  <script src="/js/dashboard.js"></script>
+</body>
+</html>

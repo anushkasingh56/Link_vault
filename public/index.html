@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LinkVault — Short links that report back</title>
+<meta name="description" content="LinkVault turns any long URL into a short, trackable link — with real-time click analytics, device and referrer breakdowns, all in one dashboard." />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark"></span> LinkVault</div>
+      <div style="display:flex; gap:12px;">
+        <a href="/login.html" class="btn btn-ghost">Log in</a>
+        <a href="/register.html" class="btn btn-primary">Get started</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <span class="eyebrow"><span class="dot"></span> live click tracking</span>
+      <h1>Every link you share is a signal.<br>LinkVault listens.</h1>
+      <p class="lead">Shorten any URL, then watch clicks, devices, and referrers roll in on a dashboard built for people who actually read their data.</p>
+      <div class="hero-actions">
+        <a href="/register.html" class="btn btn-primary">Create your first link</a>
+        <a href="/login.html" class="btn btn-ghost">I already have an account</a>
+      </div>
+
+      <div class="pulse-strip">
+        <svg id="heroPulse" viewBox="0 0 720 80" preserveAspectRatio="none" aria-hidden="true"></svg>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature panel">
+        <span class="num mono">01 · shorten</span>
+        <h3>Custom or generated slugs</h3>
+        <p>Pick your own memorable slug, or let LinkVault generate one instantly. Every link is yours to edit or retire.</p>
+      </div>
+      <div class="feature panel">
+        <span class="num mono">02 · monitor</span>
+        <h3>Clicks logged the moment they happen</h3>
+        <p>Timestamp, device type, and referrer are captured on every redirect — no pixel, no third-party script.</p>
+      </div>
+      <div class="feature panel">
+        <span class="num mono">03 · understand</span>
+        <h3>A dashboard built to be read</h3>
+        <p>14-day trend lines, device breakdowns, and referrer sources for every link, at a glance.</p>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    Built for the Digital Heroes Full Stack Developer Trial · LinkVault
+  </footer>
+
+  <script>
+    // Signature hero element: a generated "signal" waveform, drawn once,
+    // that idles with a gentle pulse — nothing fetched, nothing heavy.
+    (function drawPulse() {
+      const svg = document.getElementById("heroPulse");
+      const W = 720, H = 80, MID = 40;
+      let points = [];
+      let x = 0;
+      while (x <= W) {
+        const isPulse = Math.random() < 0.12;
+        if (isPulse) {
+          const h = 18 + Math.random() * 20;
+          points.push([x, MID], [x + 4, MID - h], [x + 8, MID + h * 0.6], [x + 12, MID]);
+          x += 16;
+        } else {
+          points.push([x, MID + (Math.random() - 0.5) * 4]);
+          x += 10;
+        }
+      }
+      const d = "M " + points.map((p) => p.join(",")).join(" L ");
+      const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+      path.setAttribute("d", d);
+      path.setAttribute("fill", "none");
+      path.setAttribute("stroke", "#35e6c2");
+      path.setAttribute("stroke-width", "1.5");
+      path.setAttribute("stroke-linecap", "round");
+      path.setAttribute("stroke-linejoin", "round");
+      path.setAttribute("opacity", "0.85");
+      svg.appendChild(path);
+
+      const glow = path.cloneNode();
+      glow.setAttribute("stroke-width", "5");
+      glow.setAttribute("opacity", "0.12");
+      svg.insertBefore(glow, path);
+    })();
+  </script>
+</body>
+</html>

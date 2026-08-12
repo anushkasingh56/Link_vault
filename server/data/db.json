@@ -1,0 +1,573 @@
+{
+  "users": [
+    {
+      "id": "JNENQuk8vHUzUp2xX6CVR",
+      "name": "Demo User",
+      "email": "demo@demo.com",
+      "passwordHash": "$2a$12$UdahsnU41jPt773XRnlXXeSyaM88BbkZWMCa3LlgFZBmsW4cF4OmG",
+      "createdAt": "2026-08-12T15:36:04.541Z"
+    },
+    {
+      "id": "PVD09gYl2QIC08RIa2OZp",
+      "name": "Anushka Singh",
+      "email": "anushkasinghh90@gmail.com",
+      "passwordHash": "$2a$12$l36zOp8GJArBrVKtZ4oVg.EA7pY2VXomKg2A2qfwA7RuujYL9yaAK",
+      "createdAt": "2026-08-12T15:44:01.340Z"
+    }
+  ],
+  "links": [
+    {
+      "id": "QlGASlD7O8oBYianPStDl",
+      "userId": "JNENQuk8vHUzUp2xX6CVR",
+      "slug": "portfolio",
+      "url": "https://github.com",
+      "title": "GitHub Portfolio",
+      "createdAt": "2026-08-12T15:36:04.541Z"
+    },
+    {
+      "id": "uQCYdHab2NO4_21wuVZc5",
+      "userId": "JNENQuk8vHUzUp2xX6CVR",
+      "slug": "resume-2026",
+      "url": "https://linkedin.com/in",
+      "title": "LinkedIn Resume",
+      "createdAt": "2026-08-12T15:36:04.541Z"
+    },
+    {
+      "id": "uErWUtbj9BYPc3sNFFs-H",
+      "userId": "JNENQuk8vHUzUp2xX6CVR",
+      "slug": "docs",
+      "url": "https://developer.mozilla.org",
+      "title": "Project Docs (MDN)",
+      "createdAt": "2026-08-12T15:36:04.541Z"
+    },
+    {
+      "id": "1DSny7DFDXCYmhNQC2-X0",
+      "userId": "PVD09gYl2QIC08RIa2OZp",
+      "slug": "wM8xjPc",
+      "url": "https://claude.ai/chat/12ecd795-ffdc-47d7-82e5-be4ba1e18700?onboarding=1",
+      "title": "chat",
+      "createdAt": "2026-08-12T15:44:45.978Z",
+      "updatedAt": "2026-08-12T15:46:52.677Z"
+    }
+  ],
+  "clicks": [
+    {
+      "id": "1786548964548-VyKF0x",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-09T14:37:32.190Z",
+      "referrer": "google.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964548-SdLQGl",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-06T12:50:13.435Z",
+      "referrer": "google.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964548-I7C8WR",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-02T11:12:11.690Z",
+      "referrer": null,
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964548-uViZOk",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-04T11:20:40.630Z",
+      "referrer": null,
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964548-I2eAVU",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-04T03:26:44.844Z",
+      "referrer": "twitter.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-vd5prA",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-05T07:09:36.426Z",
+      "referrer": null,
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-vcLIjn",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-06T11:57:29.066Z",
+      "referrer": "twitter.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-N9ew_x",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-09T19:28:45.314Z",
+      "referrer": "google.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-ZHF8MW",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-06T17:40:54.798Z",
+      "referrer": null,
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-t-WzQw",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-04T11:40:45.728Z",
+      "referrer": null,
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-iZKw9g",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-07T07:57:16.658Z",
+      "referrer": null,
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-3E7nrg",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-05T08:28:47.076Z",
+      "referrer": "linkedin.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-GKKE-O",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-08T21:49:54.756Z",
+      "referrer": "twitter.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-EBGMIe",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-04T04:10:47.688Z",
+      "referrer": null,
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-KShcOD",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-03T02:27:53.759Z",
+      "referrer": null,
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-PMD0Qw",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-05T15:06:55.588Z",
+      "referrer": "twitter.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-SRmUbE",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-07-30T20:00:28.576Z",
+      "referrer": null,
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-WBj63O",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-12T09:24:22.783Z",
+      "referrer": "twitter.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-oYEdgy",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-01T00:41:07.073Z",
+      "referrer": null,
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-mxf4tZ",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-07-31T08:50:45.876Z",
+      "referrer": "twitter.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-8ISfan",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-04T13:27:51.974Z",
+      "referrer": null,
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-vvXsiG",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-11T11:58:26.068Z",
+      "referrer": "twitter.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-6xJ-ed",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-07T01:47:39.775Z",
+      "referrer": "twitter.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-aZBRNE",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-04T19:47:56.613Z",
+      "referrer": null,
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-GhSWTv",
+      "linkId": "QlGASlD7O8oBYianPStDl",
+      "timestamp": "2026-08-05T18:13:35.613Z",
+      "referrer": "google.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-LvBev_",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-07T04:38:13.917Z",
+      "referrer": null,
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-nfRQWg",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-08T20:49:15.861Z",
+      "referrer": "linkedin.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-FYGub2",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-10T05:30:01.044Z",
+      "referrer": "twitter.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-RNTGjh",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-11T18:17:42.968Z",
+      "referrer": "linkedin.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-9rFzDU",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-07T11:20:58.734Z",
+      "referrer": "twitter.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-jZAGK8",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-02T15:08:19.134Z",
+      "referrer": "google.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-HxDiEj",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-09T06:46:18.253Z",
+      "referrer": "twitter.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-oj7FNr",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-03T22:17:40.283Z",
+      "referrer": null,
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-xomy-K",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-09T19:44:32.876Z",
+      "referrer": "google.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-jb809X",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-08T17:37:18.508Z",
+      "referrer": "linkedin.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-JC8GXK",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-08T18:09:49.960Z",
+      "referrer": "linkedin.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-ZmoVcc",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-10T07:03:54.263Z",
+      "referrer": null,
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-20o2dj",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-02T13:37:17.195Z",
+      "referrer": null,
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-9z66g2",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-01T14:41:15.063Z",
+      "referrer": "linkedin.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-he4bD8",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-11T12:41:06.768Z",
+      "referrer": null,
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-7NZMBW",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-02T14:48:17.697Z",
+      "referrer": "google.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-FahuZk",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-07T19:30:57.388Z",
+      "referrer": null,
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-3ktMS2",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-09T08:54:57.435Z",
+      "referrer": null,
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-qbI8y-",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-09T04:12:40.369Z",
+      "referrer": null,
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-5pNxNX",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-10T06:32:26.350Z",
+      "referrer": "twitter.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-IN8Yrg",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-08T07:31:34.894Z",
+      "referrer": null,
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-ygzTcR",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-04T16:29:21.989Z",
+      "referrer": "linkedin.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-TE0Fv4",
+      "linkId": "uQCYdHab2NO4_21wuVZc5",
+      "timestamp": "2026-08-05T20:45:46.753Z",
+      "referrer": "linkedin.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-PJiKSx",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-07-31T08:35:02.153Z",
+      "referrer": "twitter.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-KUlyo1",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-10T06:33:29.737Z",
+      "referrer": "linkedin.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-ndCIvJ",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-02T15:54:20.520Z",
+      "referrer": null,
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-L3hFGp",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-03T11:17:56.116Z",
+      "referrer": "twitter.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-a311P3",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-06T03:34:01.535Z",
+      "referrer": "google.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-dDzxS3",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-05T05:50:26.008Z",
+      "referrer": "google.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-4wM4Is",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-01T12:01:47.503Z",
+      "referrer": null,
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-JeJDgq",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-03T10:43:21.889Z",
+      "referrer": "twitter.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-L50F8n",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-04T01:51:54.501Z",
+      "referrer": null,
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-Mt7DIl",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-03T22:42:40.122Z",
+      "referrer": "google.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-PMNmVK",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-01T21:26:44.645Z",
+      "referrer": null,
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-DH-lrv",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-02T11:43:17.017Z",
+      "referrer": "twitter.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-WuHO4r",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-07-30T17:02:51.105Z",
+      "referrer": null,
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-qB0MR0",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-10T02:41:47.045Z",
+      "referrer": "google.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-nZJ-ZR",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-05T08:05:10.623Z",
+      "referrer": "google.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-FwAIl0",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-06T12:47:44.196Z",
+      "referrer": "twitter.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-66vC5r",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-09T15:48:29.180Z",
+      "referrer": null,
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-WNzUTu",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-02T21:11:59.609Z",
+      "referrer": "linkedin.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549--_XHW3",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-08T23:25:12.034Z",
+      "referrer": "twitter.com",
+      "device": "Mobile"
+    },
+    {
+      "id": "1786548964549-Er15fS",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-06T03:51:05.940Z",
+      "referrer": "twitter.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-hrRUNn",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-10T11:21:00.824Z",
+      "referrer": "twitter.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-TOPH6J",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-09T13:18:57.553Z",
+      "referrer": "linkedin.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786548964549-E9r5I_",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-08-05T16:41:20.865Z",
+      "referrer": "twitter.com",
+      "device": "Tablet"
+    },
+    {
+      "id": "1786548964549-hgRFiI",
+      "linkId": "uErWUtbj9BYPc3sNFFs-H",
+      "timestamp": "2026-07-30T18:25:49.203Z",
+      "referrer": "linkedin.com",
+      "device": "Desktop"
+    },
+    {
+      "id": "1786549529222-j07ubg",
+      "linkId": "1DSny7DFDXCYmhNQC2-X0",
+      "timestamp": "2026-08-12T15:45:29.222Z",
+      "referrer": null,
+      "device": "Desktop"
+    },
+    {
+      "id": "1786549589677-1uevsh",
+      "linkId": "1DSny7DFDXCYmhNQC2-X0",
+      "timestamp": "2026-08-12T15:46:29.677Z",
+      "referrer": null,
+      "device": "Desktop"
+    }
+  ]
+}

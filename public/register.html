@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Create account — LinkVault</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <div class="auth-wrap">
+    <div class="auth-card card">
+      <div class="brand" style="margin-bottom: 24px;"><span class="brand-mark"></span> LinkVault</div>
+      <h1>Create your account</h1>
+      <p class="auth-sub">Free, and takes under a minute.</p>
+
+      <div id="banner" class="banner banner-error"></div>
+
+      <form id="registerForm" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" type="text" autocomplete="name" required placeholder="Anushka Sharma" />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" type="password" autocomplete="new-password" required placeholder="At least 8 characters" />
+          <span class="field-hint">Use 8+ characters. No need for symbols, but they help.</span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" id="submitBtn">Create account</button>
+      </form>
+
+      <p class="auth-switch">Already have an account? <a href="/login.html">Log in</a></p>
+    </div>
+  </div>
+
+  <script src="/js/shared.js"></script>
+  <script>
+    if (Auth.getToken()) window.location.href = "/dashboard.html";
+
+    const form = document.getElementById("registerForm");
+    const banner = document.getElementById("banner");
+    const submitBtn = document.getElementById("submitBtn");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      banner.classList.remove("show");
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Creating account…";
+
+      try {
+        const { token, user } = await api("/auth/register", {
+          method: "POST",
+          body: {
+            name: document.getElementById("name").value.trim(),
+            email: document.getElementById("email").value.trim(),
+            password: document.getElementById("password").value,
+          },
+        });
+        Auth.save(token, user);
+        window.location.href = "/dashboard.html";
+      } catch (err) {
+        showBanner(banner, err.message);
+        submitBtn.disabled = false;
+        submitBtn.textContent = "Create account";
+      }
+    });
+  </script>
+</body>
+</html>
